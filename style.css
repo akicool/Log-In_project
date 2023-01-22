@@ -57,6 +57,7 @@ table {
 .login_form {
     position: absolute;
     width: 700px;
+    white-space: nowrap;
     top: 150px;
     left: 500px;
     font-size: 100px;
@@ -68,6 +69,7 @@ table {
 .login_form:hover {
     position: absolute;
     width: 700px;
+    white-space: nowrap;
     top: 150px;
     left: 505px;
     font-size: 100px;
@@ -80,6 +82,7 @@ table {
 .login_form1 {
     position: absolute;
     width: 700px;
+    white-space: nowrap;
     top: 150px;
     left: 500px;
     font-size: 100px;
