@@ -1,0 +1,250 @@
+/**/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, b, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**/
+
+* {
+    box-sizing: border-box;
+}
+
+.background_image {
+    position: absolute;
+    width: 1519px;
+    height: 960px;
+}
+
+.login_form {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    font-size: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: .2s;
+    z-index: 1;
+}
+
+.login_form:hover {
+    position: absolute;
+    top: 150px;
+    left: 505px;
+    font-size: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: .2s;
+    color: #584ECB;
+    z-index: 1;
+}
+
+.login_form1 {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    font-size: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: .2s;
+    color: #b7b7b7;    
+}
+
+.rectangle1 {
+    position: relative;
+    top: 350px;
+    left: 575px; /*222*/
+    width: 333px;
+    height: 521px;
+    background: #210909;
+    border-radius: 20px;
+    display: block;    
+}
+
+.menu_rec1 {
+    position: absolute;
+    width: 41px;
+    height: 22px;
+    top: 28px;
+    right: 22px;
+    bottom: 471px;
+    left: 270px;
+}
+
+.log1 {
+    position: absolute;
+    width: 120px;
+    height: 54px;
+
+    padding-top: 10px;
+
+    top: 92px;
+    right: 107px;
+    bottom: 375px;
+    left: 106px;
+    font-family: 'Abhaya Libre Medium';
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+}
+
+.u_name1 {
+    position: absolute;
+    width: 291px;
+    height: 50px;
+    top: 170px;
+    right: 22px;
+    bottom: 299px;
+    left: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logo_name1{
+    position: absolute;
+    width: 24px;
+    height: 18.67px;
+    top: 187px;
+    right: 272px;
+    bottom: 315.33px;
+    left: 37px;
+    z-index: 1;
+}
+
+.spich_name1 {
+    position: absolute;
+    width: 47px;
+    height: 0;
+    top: 194px;
+    right: 264px;
+    bottom: 297px;
+    left: 55px;
+    border: 1px solid #E8C3C3;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+
+.u_pass1 {
+    position: absolute;
+    width: 291px;
+    height: 50px;
+    border-radius: 10px;
+    top: 260px;
+    left: 22px;
+    bottom: 210px;
+    left: 20px;
+    text-align: center;
+    
+}
+
+.key_name1 {
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    top: 275px;
+    right: 280px;
+    bottom: 225px;
+    left: 33px;
+    z-index: 1;
+}
+
+.spich_pass1{
+    position: absolute;
+    width: 47px;
+    height: 0;
+    top: 284px;
+    right: 264px;
+    bottom: 297px;
+    left: 55px;
+    border: 1px solid #E8C3C3;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+
+.button1 {
+    position: absolute;
+    width: 291px;
+    height: 50px;
+    top: 379px;
+    right: 22px;
+    bottom: 92px;
+    left: 20px;
+    background-color: #584ECB;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 10px;
+    display: block;   
+}
+
+.button1:hover {
+    position: absolute;
+    width: 291px;
+    height: 50px;
+    top: 379px;
+    right: 22px;
+    bottom: 92px;
+    left: 20px;
+    background-color: #4b41b7;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 10px;
+    display: block;
+    transition: .2s;     
+}
+
+.button1:active {
+    position: absolute;
+    width: 291px;
+    height: 50px;
+    top: 379px;
+    right: 22px;
+    bottom: 92px;
+    left: 20px;
+    background-color: #2f296e;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 10px;
+    display: block;
+    transition: .2s;     
+}
+
+.button1_text {
+    font-family: 'Abhaya Libre Medium';
+    font-size: 24px;
+    line-height: 32px;
+    padding: 8px 71.29px 15.53px 66px;
+    color: #F8FD00;
+}
